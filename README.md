@@ -1,3 +1,32 @@
+#https://github.com/corbaz/apis-svelt-kit.git
+
+```cmd
+https://github.com/corbaz/apis-svelt-kit.git
+
+SSH git@github.com:corbaz/apis-svelt-kit.git
+
+GitHubDesktop
+```
+
+
+###Create a new repository on the command line
+
+```cmd
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/corbaz/apis-svelt-kit.git
+git push -u origin main
+```
+###Push an existing repository from the command line
+
+```cmd
+git remote add origin https://github.com/corbaz/apis-svelt-kit.git
+git branch -M main
+git push -u origin main
+```
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
