@@ -12,8 +12,6 @@
 
 // export default config;
 
-
-
 // import node from '@sveltejs/adapter-node';
 // const pkg = require('./package.json');
 //
