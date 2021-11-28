@@ -1,7 +1,7 @@
 <script>
-	import logo from '/apple-logo.png';
-	import back from '/backIcon.svg';
-	import home from '/homeIcon.svg';
+	import logo from '/static/apple-logo.png';
+	import back from '/static/backIcon.svg';
+	import home from '/static/homeIcon.svg';
 	import { goto } from '$app/navigation';
 
 	const goBack = () => {

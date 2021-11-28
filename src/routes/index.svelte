@@ -1,6 +1,6 @@
 <script>
 	import { goto } from '$app/navigation';
-	import logo from '/mundo.png';
+	import logo from '/static/mundo.png';
 
 	let artista_buscado = '';
 	const search = () => {
@@ -100,3 +100,7 @@
         inset 0 0 0.5em 0.25em var(--glow-color);
     }
 </style>
+[vite]: Rollup failed to resolve import "/mundo.png" from "src\routes\index.svelte".
+This is most likely unintended because it can break your application at runtime.
+If you do want to externalize this module explicitly add it to
+`build.rollupOptions.external`

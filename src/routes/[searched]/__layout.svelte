@@ -1,6 +1,6 @@
 <script>
-	import back from '/backIcon.svg';
-	import home from '/homeIcon.svg';
+	import back from '/static/backIcon.svg';
+	import home from '/static/homeIcon.svg';
 	import { goto } from '$app/navigation';
 
 	const goBack = () => {
@@ -8,18 +8,18 @@
 	};
 </script>
 
-<div class="flex items-center justify-between mb-12">
-	<button on:click={goBack} class="flex items-center justify-center text-white">
-		<img src={back} alt="back" class="h-4" />
-		<div class="ml-2">Back</div>
+<div class='flex items-center justify-between mb-12'>
+	<button class='flex items-center justify-center text-white' on:click={goBack}>
+		<img alt='back' class='h-4' src={back} />
+		<div class='ml-2'>Back</div>
 	</button>
 	<button
+		class='flex items-center justify-center text-white'
 		on:click={() => {
 			goto('/');
 		}}
-		class="flex items-center justify-center text-white"
 	>
-		<img src={home} alt="back" class="h-5" />
+		<img alt='back' class='h-5' src={home} />
 	</button>
 </div>
 <slot />
