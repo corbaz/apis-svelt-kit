@@ -1,13 +1,15 @@
 <script>
 	import { goto } from '$app/navigation';
-	import logo from '/static/mundo.png';
+	import logo from '/static/caricatura.png';
 
 	let artista_buscado = '';
 	const search = () => {
 		goto(`${artista_buscado}`);
 	};
 </script>
-
+<svelte:head>
+	<title>Api Music</title>
+</svelte:head>
 <section class=''>
 	<div class='flex flex-col justify-center items-center'>
 		<div
