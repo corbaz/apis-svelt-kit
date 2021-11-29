@@ -1,4 +1,6 @@
 <script context='module'>
+	export let songResults;
+
 	export async function load({ page }) {
 		let songId = page.params.songId;
 		const itunesSearched = await fetch(
@@ -8,10 +10,8 @@
 		let songResults = res.results[0];
 		return { props: { songResults } };
 	}
-</script>
 
-<script>
-	export let songResults;
+
 </script>
 
 <section>

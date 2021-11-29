@@ -11,7 +11,8 @@
 <svelte:head>
 	<title>Api Music</title>
 </svelte:head>
-<section class='py-6 justify-center items-center'>
+
+<section class='py-6 justify-center items-center fixed'>
 	<div class='flex flex-col justify-center items-center'>
 		<div
 			class='text-center font-semibold mb-5
@@ -64,7 +65,6 @@
         --glow-spread-color: rgba(191, 123, 255, 0.781);
         --enhanced-glow-color: rgb(231, 206, 255);
         --btn-color: rgb(100, 61, 136);
-        outline: none;
         border: 0.25em solid var(--glow-color);
         padding: 1em;
         color: var(--glow-color);
