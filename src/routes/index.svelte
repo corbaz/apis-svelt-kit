@@ -7,29 +7,32 @@
 		goto(`${artista_buscado}`);
 	};
 </script>
+
 <svelte:head>
 	<title>Api Music</title>
 </svelte:head>
-<section class=''>
+<section class='py-6 justify-center items-center'>
 	<div class='flex flex-col justify-center items-center'>
 		<div
-			class='text-center text-white font-semibold mb-5
-		 					text-3xl	md:text-5xl'
+			class='text-center font-semibold mb-5
+		 					text-3xl md:text-5xl'
+			style='color:rgb(217, 176, 255)'
 		>
-			{artista_buscado.length > 0 ? artista_buscado : 'Buscar un Artista'}
+			{artista_buscado.length > 0 ? artista_buscado : 'Músico'}
 		</div>
 		<div
 			class='flex flex-row p-1 w-full bg-white bg-opacity-20
-			 rounded-md border-white border-opacity-30 justify-between
-			 	 gap-1 border'
+						 rounded-md border-white border-opacity-30 justify-between
+						 gap-1 border'
 		>
 			<input
 				bind:value={artista_buscado}
-				class='px-2 w-full text-white bg-transparent'
+				class='px-2 w-full text-white bg-transparent placeholder-purple-700'
 				on:keydown={(evento) => {
 					if (evento.keyCode !== 13) return;
 					search();
 				}}
+				placeholder='Que músico quieres escuchar...?'
 				type='text'
 			/>
 			<button on:click={search}>

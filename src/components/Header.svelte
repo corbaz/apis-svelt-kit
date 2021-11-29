@@ -27,9 +27,9 @@
 			>
 				<img alt='back' class='h-6' src={home} />
 			</button>
-			<a class='col-span-1 ml-auto'
-				 href='https://www.linkedin.com/in/julio-corbaz/'>
-				<img alt='logo' class='h-6' src={logo} target='_blank' />
+			<a class='col-span-1 ml-auto' href='https://www.linkedin.com/in/julio-corbaz/'
+				 target='_blank'>
+				<img alt='logo' class='h-6' src={logo} />
 			</a>
 		</div>
 	</div>
