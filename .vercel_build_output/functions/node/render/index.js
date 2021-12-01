@@ -4696,22 +4696,22 @@ var init_shims = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/__layout-1419d44e.js
-var layout_1419d44e_exports = {};
-__export(layout_1419d44e_exports, {
+// .svelte-kit/output/server/chunks/__layout-dbda8968.js
+var layout_dbda8968_exports = {};
+__export(layout_dbda8968_exports, {
   default: () => _layout
 });
-var back, pause, home, logo, Menu, _layout;
-var init_layout_1419d44e = __esm({
-  ".svelte-kit/output/server/chunks/__layout-1419d44e.js"() {
+var back, pause, home, logo, Menu, video, _layout;
+var init_layout_dbda8968 = __esm({
+  ".svelte-kit/output/server/chunks/__layout-dbda8968.js"() {
     init_shims();
-    init_app_c3e45bc2();
+    init_app_3741dbd6();
     back = "/_app/assets/backIcon-5f04394b.svg";
     pause = "/_app/assets/pause-180ef736.svg";
     home = "/_app/assets/homeIcon-853ee5b0.svg";
     logo = "/_app/assets/julio-8211b8df.png";
     Menu = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return `<div class="${"w-screen h-20 object-cover fixed left-0 top-0 right-0 bottom-0 z-50 bg-opacity-50 bg-black grid grid-cols-3 gap-3"}"><div class="${"col-span-1 ml-5 my-auto"}"><button class="${"pr-2"}"><img alt="${"back"}" class="${"h-5 w-5"}"${add_attribute("src", back, 0)}></button>
+      return `<div class="${"w-screen h-12 object-cover fixed left-0 top-0 right-0 bottom-0 z-50 bg-opacity-50 bg-black grid grid-cols-3 gap-3"}"><div class="${"col-span-1 ml-5 my-auto"}"><button class="${"pr-2"}"><img alt="${"back"}" class="${"h-5 w-5"}"${add_attribute("src", back, 0)}></button>
 		<button><img alt="${"Video"}" class="${"h-5 w-5"}"${add_attribute("src", pause, 0)}></button></div>
 
 	<div class="${"col-span-1 mx-auto my-auto"}"><span class="${"text-white "}">Api Music</span></div>
@@ -4729,17 +4729,18 @@ var init_layout_1419d44e = __esm({
 		
 		</div></div>`;
     });
+    video = "/_app/assets/music-1ae6b0cf.mp4";
     _layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return `<video autoplay class="${"w-screen h-screen object-cover fixed left-0 top-0 right-0 bottom-0 z-0 bg-opacity-75 bg-black"}" id="${"idVideo"}" loop muted poster="${"https://assets.codepen.io/6093409/river.jpg"}"><source src="${"/static/music.mp4"}" type="${"video/mp4"}"></video>
+      return `<video autoplay class="${"w-screen h-screen object-cover fixed left-0 top-0 right-0 bottom-0 z-0 bg-opacity-75 bg-black"}" id="${"idVideo"}" loop muted poster="${"https://assets.codepen.io/6093409/river.jpg"}"><source${add_attribute("src", video, 0)} type="${"video/mp4"}"></video>
 ${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}
 <div class="${"w-screen h-screen object-cover fixed left-0 top-0 right-0 bottom-0 z-40 bg-opacity-75 bg-red-700 justify-center items-center"}" id="${"idFiltro"}">${slots.default ? slots.default({}) : ``}</div>`;
     });
   }
 });
 
-// .svelte-kit/output/server/chunks/error-8f316a78.js
-var error_8f316a78_exports = {};
-__export(error_8f316a78_exports, {
+// .svelte-kit/output/server/chunks/error-9d1de8f8.js
+var error_9d1de8f8_exports = {};
+__export(error_9d1de8f8_exports, {
   default: () => Error2,
   load: () => load
 });
@@ -4747,10 +4748,10 @@ function load({ error: error2, status }) {
   return { props: { error: error2, status } };
 }
 var Error2;
-var init_error_8f316a78 = __esm({
-  ".svelte-kit/output/server/chunks/error-8f316a78.js"() {
+var init_error_9d1de8f8 = __esm({
+  ".svelte-kit/output/server/chunks/error-9d1de8f8.js"() {
     init_shims();
-    init_app_c3e45bc2();
+    init_app_3741dbd6();
     Error2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { status } = $$props;
       let { error: error2 } = $$props;
@@ -4770,16 +4771,16 @@ ${error2.stack ? `<pre>${escape(error2.stack)}</pre>` : ``}`;
   }
 });
 
-// .svelte-kit/output/server/chunks/index-a33fff03.js
-var index_a33fff03_exports = {};
-__export(index_a33fff03_exports, {
+// .svelte-kit/output/server/chunks/index-a029dc89.js
+var index_a029dc89_exports = {};
+__export(index_a029dc89_exports, {
   default: () => Routes
 });
 var css, Routes;
-var init_index_a33fff03 = __esm({
-  ".svelte-kit/output/server/chunks/index-a33fff03.js"() {
+var init_index_a029dc89 = __esm({
+  ".svelte-kit/output/server/chunks/index-a029dc89.js"() {
     init_shims();
-    init_app_c3e45bc2();
+    init_app_3741dbd6();
     css = {
       code: "button.svelte-nwijv4{--glow-color:rgb(217, 176, 255);--glow-spread-color:rgba(191, 123, 255, 0.781);--enhanced-glow-color:rgb(231, 206, 255);--btn-color:rgb(100, 61, 136);border:0.25em solid var(--glow-color);padding:1em;color:var(--glow-color);font-size:5px;font-weight:bold;background-color:var(--btn-color);border-radius:1em;outline:none;box-shadow:0 0 1em 0.25em var(--glow-color), 0 0 4em 1em var(--glow-spread-color),\n        inset 0 0 0.75em 0.25em var(--glow-color);text-shadow:0 0 0.5em var(--glow-color);position:relative;transition:all 0.3s}button.svelte-nwijv4::after{pointer-events:none;position:absolute;top:120%;left:0;height:100%;width:100%;background-color:var(--glow-spread-color);filter:blur(2em);opacity:0.7;transform:perspective(1.5em) rotateX(35deg) scale(1, 0.6)}button.svelte-nwijv4:hover{color:var(--btn-color);background-color:var(--glow-color);box-shadow:0 0 1em 0.25em var(--glow-color), 0 0 4em 2em var(--glow-spread-color),\n        inset 0 0 0.75em 0.25em var(--glow-color)}button.svelte-nwijv4:active{box-shadow:0 0 0.6em 0.25em var(--glow-color), 0 0 2.5em 2em var(--glow-spread-color),\n        inset 0 0 0.5em 0.25em var(--glow-color)}input.svelte-nwijv4:-webkit-autofill,input.svelte-nwijv4:-webkit-autofill:focus{transition:background-color 600000s 0s, color 600000s 0s}",
       map: null
@@ -4789,15 +4790,7 @@ var init_index_a33fff03 = __esm({
       $$result.css.add(css);
       return `${$$result.head += `${$$result.title = `<title>Api Music</title>`, ""}`, ""}
 
-<section class="${"h-screen object-cover left-0 top-0 right-0 bottom-0 z-40 flex flex-col justify-center mx-5 md:mx-40 lg:mx-56 xl:mx-76"}"><div>
-		
-		
-		
-		
-		
-		
-		
-		<h1 class="${"text-center py-0 pr-2 text-black bg-white bg-opacity-50 rounded-t-md border border-black xl:text-4xl lg:text-3xl md:text-2xl sm:text"}">${escape(artista_buscado.length > 0 ? `Artista:  ${artista_buscado}` : "")}</h1>
+<section class="${"h-screen object-cover left-0 top-0 right-0 bottom-0 z-40 flex flex-col justify-center mx-5 md:mx-40 lg:mx-56 xl:mx-76"}"><div><h1 class="${"text-center pb-2 pr-2 text-black bg-white bg-opacity-50 rounded-t-md border border-black xl:text-4xl lg:text-3xl md:text-2xl sm:text"}">${escape(artista_buscado.length > 0 ? `Artista:  ${artista_buscado}` : "")}</h1>
 		<div class="${"flex flex-row p-2 w-full bg-black bg-opacity-0 rounded-b-md border border-black gap-2 justify-between"}"><input class="${"px-2 w-full text-white text-sm md:text-base bg-black bg-opacity-70 placeholder-gray-400 outline-none rounded-b-md svelte-nwijv4"}" id="${"artista"}" placeholder="${"Que m\xFAsico quieres escuchar...?"}" type="${"text"}"${add_attribute("value", artista_buscado, 0)}>
 			<button class="${"svelte-nwijv4"}"><svg class="${"w-6 h-6 text-red-400"}" fill="${"none"}" stroke="${"currentColor"}" viewBox="${"0 0 24 24"}" xmlns="${"http://www.w3.org/2000/svg"}"><path d="${"M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"}" stroke-linecap="${"round"}" stroke-linejoin="${"round"}" stroke-width="${"2"}"></path></svg></button></div>
 		
@@ -4809,16 +4802,16 @@ var init_index_a33fff03 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/__layout-cc0da3b1.js
-var layout_cc0da3b1_exports = {};
-__export(layout_cc0da3b1_exports, {
+// .svelte-kit/output/server/chunks/__layout-e44fd3db.js
+var layout_e44fd3db_exports = {};
+__export(layout_e44fd3db_exports, {
   default: () => _layout2
 });
 var _layout2;
-var init_layout_cc0da3b1 = __esm({
-  ".svelte-kit/output/server/chunks/__layout-cc0da3b1.js"() {
+var init_layout_e44fd3db = __esm({
+  ".svelte-kit/output/server/chunks/__layout-e44fd3db.js"() {
     init_shims();
-    init_app_c3e45bc2();
+    init_app_3741dbd6();
     _layout2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       return `
 
@@ -4839,16 +4832,16 @@ ${slots.default ? slots.default({}) : ``}`;
   }
 });
 
-// .svelte-kit/output/server/chunks/index-65bde8a9.js
-var index_65bde8a9_exports = {};
-__export(index_65bde8a9_exports, {
+// .svelte-kit/output/server/chunks/index-5ce8f847.js
+var index_5ce8f847_exports = {};
+__export(index_5ce8f847_exports, {
   default: () => U5Bsearchedu5D
 });
 var getStores, page, U5Bsearchedu5D;
-var init_index_65bde8a9 = __esm({
-  ".svelte-kit/output/server/chunks/index-65bde8a9.js"() {
+var init_index_5ce8f847 = __esm({
+  ".svelte-kit/output/server/chunks/index-5ce8f847.js"() {
     init_shims();
-    init_app_c3e45bc2();
+    init_app_3741dbd6();
     getStores = () => {
       const stores = getContext("__svelte__");
       return {
@@ -4886,25 +4879,25 @@ var init_index_65bde8a9 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/test-8908f553.js
-var test_8908f553_exports = {};
-__export(test_8908f553_exports, {
+// .svelte-kit/output/server/chunks/test-e430708d.js
+var test_e430708d_exports = {};
+__export(test_e430708d_exports, {
   default: () => Test
 });
 var Test;
-var init_test_8908f553 = __esm({
-  ".svelte-kit/output/server/chunks/test-8908f553.js"() {
+var init_test_e430708d = __esm({
+  ".svelte-kit/output/server/chunks/test-e430708d.js"() {
     init_shims();
-    init_app_c3e45bc2();
+    init_app_3741dbd6();
     Test = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       return `test 2`;
     });
   }
 });
 
-// .svelte-kit/output/server/chunks/_songId_-28f7509c.js
-var songId_28f7509c_exports = {};
-__export(songId_28f7509c_exports, {
+// .svelte-kit/output/server/chunks/_songId_-35830ad2.js
+var songId_35830ad2_exports = {};
+__export(songId_35830ad2_exports, {
   default: () => U5BsongIdu5D,
   load: () => load2,
   songResults: () => songResults
@@ -4917,10 +4910,10 @@ async function load2({ page: page2 }) {
   return { props: { songResults: songResults2 } };
 }
 var songResults, U5BsongIdu5D;
-var init_songId_28f7509c = __esm({
-  ".svelte-kit/output/server/chunks/_songId_-28f7509c.js"() {
+var init_songId_35830ad2 = __esm({
+  ".svelte-kit/output/server/chunks/_songId_-35830ad2.js"() {
     init_shims();
-    init_app_c3e45bc2();
+    init_app_3741dbd6();
     U5BsongIdu5D = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       return `<section><div class="${"flex flex-col items-center justify-center"}"><h1 class="${"text-3xl font-bold text-center mb-8 text-indigo-300"}">${escape(songResults.trackName)}</h1>
 		<img alt="${"img"}" class="${"w-48 md:w-56 lg:w-64 rounded-2xl drop-shadow-3xl mb-12"}"${add_attribute("src", songResults.artworkUrl100, 0)}>
@@ -4929,7 +4922,7 @@ var init_songId_28f7509c = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/app-c3e45bc2.js
+// .svelte-kit/output/server/chunks/app-3741dbd6.js
 function get_single_valued_header(headers, key) {
   const value = headers[key];
   if (Array.isArray(value)) {
@@ -6229,9 +6222,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-3d219ee1.js",
+      file: assets + "/_app/start-6b302e88.js",
       css: [assets + "/_app/assets/start-d5b4de3e.css"],
-      js: [assets + "/_app/start-3d219ee1.js", assets + "/_app/chunks/vendor-532e3d33.js", assets + "/_app/chunks/singletons-12a22614.js"]
+      js: [assets + "/_app/start-6b302e88.js", assets + "/_app/chunks/vendor-532e3d33.js", assets + "/_app/chunks/singletons-12a22614.js"]
     },
     fetched: void 0,
     floc: false,
@@ -6275,8 +6268,8 @@ function render(request, {
   return respond({ ...request, host }, options, { prerender });
 }
 var __accessCheck, __privateGet, __privateAdd, __privateSet, _map, absolute, scheme, chars, unsafeChars, reserved, escaped$1, objectProtoOwnPropertyNames, subscriber_queue, escape_json_string_in_html_dict, escape_html_attr_dict, s$1, s, ReadOnlyFormData, current_component, escaped, missing_component, on_destroy, css2, Root, base, assets, user_hooks, template, options, default_settings, d, empty, manifest, get_hooks, module_lookup, metadata_lookup;
-var init_app_c3e45bc2 = __esm({
-  ".svelte-kit/output/server/chunks/app-c3e45bc2.js"() {
+var init_app_3741dbd6 = __esm({
+  ".svelte-kit/output/server/chunks/app-3741dbd6.js"() {
     init_shims();
     __accessCheck = (obj, member, msg) => {
       if (!member.has(obj))
@@ -6491,15 +6484,15 @@ ${``}`;
       externalFetch: hooks.externalFetch || fetch
     });
     module_lookup = {
-      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_1419d44e(), layout_1419d44e_exports)),
-      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_8f316a78(), error_8f316a78_exports)),
-      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_a33fff03(), index_a33fff03_exports)),
-      "src/routes/[searched]/__layout.svelte": () => Promise.resolve().then(() => (init_layout_cc0da3b1(), layout_cc0da3b1_exports)),
-      "src/routes/[searched]/index.svelte": () => Promise.resolve().then(() => (init_index_65bde8a9(), index_65bde8a9_exports)),
-      "src/routes/[searched]/test.svelte": () => Promise.resolve().then(() => (init_test_8908f553(), test_8908f553_exports)),
-      "src/routes/[searched]/[songId].svelte": () => Promise.resolve().then(() => (init_songId_28f7509c(), songId_28f7509c_exports))
+      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_dbda8968(), layout_dbda8968_exports)),
+      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_9d1de8f8(), error_9d1de8f8_exports)),
+      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_a029dc89(), index_a029dc89_exports)),
+      "src/routes/[searched]/__layout.svelte": () => Promise.resolve().then(() => (init_layout_e44fd3db(), layout_e44fd3db_exports)),
+      "src/routes/[searched]/index.svelte": () => Promise.resolve().then(() => (init_index_5ce8f847(), index_5ce8f847_exports)),
+      "src/routes/[searched]/test.svelte": () => Promise.resolve().then(() => (init_test_e430708d(), test_e430708d_exports)),
+      "src/routes/[searched]/[songId].svelte": () => Promise.resolve().then(() => (init_songId_35830ad2(), songId_35830ad2_exports))
     };
-    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-e984f64d.js", "css": ["assets/pages/__layout.svelte-7a2e8818.css"], "js": ["pages/__layout.svelte-e984f64d.js", "chunks/vendor-532e3d33.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-68deeffb.js", "css": [], "js": ["error.svelte-68deeffb.js", "chunks/vendor-532e3d33.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-618340bc.js", "css": ["assets/pages/index.svelte-8c10372d.css"], "js": ["pages/index.svelte-618340bc.js", "chunks/vendor-532e3d33.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js"], "styles": [] }, "src/routes/[searched]/__layout.svelte": { "entry": "pages/_searched_/__layout.svelte-ba0ced53.js", "css": [], "js": ["pages/_searched_/__layout.svelte-ba0ced53.js", "chunks/vendor-532e3d33.js"], "styles": [] }, "src/routes/[searched]/index.svelte": { "entry": "pages/_searched_/index.svelte-ded29b75.js", "css": [], "js": ["pages/_searched_/index.svelte-ded29b75.js", "chunks/vendor-532e3d33.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js"], "styles": [] }, "src/routes/[searched]/test.svelte": { "entry": "pages/_searched_/test.svelte-50949813.js", "css": [], "js": ["pages/_searched_/test.svelte-50949813.js", "chunks/vendor-532e3d33.js"], "styles": [] }, "src/routes/[searched]/[songId].svelte": { "entry": "pages/_searched_/_songId_.svelte-ba9a8dff.js", "css": [], "js": ["pages/_searched_/_songId_.svelte-ba9a8dff.js", "chunks/vendor-532e3d33.js"], "styles": [] } };
+    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-7a48da2c.js", "css": ["assets/pages/__layout.svelte-95339686.css"], "js": ["pages/__layout.svelte-7a48da2c.js", "chunks/vendor-532e3d33.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-68deeffb.js", "css": [], "js": ["error.svelte-68deeffb.js", "chunks/vendor-532e3d33.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-8d2c9d5d.js", "css": ["assets/pages/index.svelte-8c10372d.css"], "js": ["pages/index.svelte-8d2c9d5d.js", "chunks/vendor-532e3d33.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js"], "styles": [] }, "src/routes/[searched]/__layout.svelte": { "entry": "pages/_searched_/__layout.svelte-ba0ced53.js", "css": [], "js": ["pages/_searched_/__layout.svelte-ba0ced53.js", "chunks/vendor-532e3d33.js"], "styles": [] }, "src/routes/[searched]/index.svelte": { "entry": "pages/_searched_/index.svelte-ded29b75.js", "css": [], "js": ["pages/_searched_/index.svelte-ded29b75.js", "chunks/vendor-532e3d33.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js"], "styles": [] }, "src/routes/[searched]/test.svelte": { "entry": "pages/_searched_/test.svelte-50949813.js", "css": [], "js": ["pages/_searched_/test.svelte-50949813.js", "chunks/vendor-532e3d33.js"], "styles": [] }, "src/routes/[searched]/[songId].svelte": { "entry": "pages/_searched_/_songId_.svelte-ba9a8dff.js", "css": [], "js": ["pages/_searched_/_songId_.svelte-ba9a8dff.js", "chunks/vendor-532e3d33.js"], "styles": [] } };
   }
 });
 
@@ -6552,7 +6545,7 @@ function getRawBody(req) {
 
 // .svelte-kit/output/server/app.js
 init_shims();
-init_app_c3e45bc2();
+init_app_3741dbd6();
 
 // .svelte-kit/vercel/entry.js
 init();
