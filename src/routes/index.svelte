@@ -1,6 +1,5 @@
 <script>
 	import { goto } from '$app/navigation';
-	import logo from '/static/caricatura.png';
 
 	let artista_buscado = '';
 	const search = () => {
@@ -12,27 +11,43 @@
 	<title>Api Music</title>
 </svelte:head>
 
-<section class='py-6 justify-center items-center fixed'>
-	<div class='flex flex-col justify-center items-center'>
-		<div
-			class='text-center font-semibold mb-5
-		 					text-3xl md:text-5xl'
-			style='color:rgb(217, 176, 255)'
+<section class='h-screen object-cover
+				 				left-0 top-0 right-0 bottom-0 z-40
+					 			flex flex-col justify-center
+					 			mx-5 md:mx-40 lg:mx-56 xl:mx-76'>
+	<div>
+		<!--		<div-->
+		<!--			class='text-center font-semibold mb-0 py-0-->
+		<!--						 text-3xl md:text-5xl rounded-md-->
+		<!--						 bg-black bg-opacity-50 text-white'-->
+		<!--			id='idMusico'-->
+		<!--		>-->
+		<!--			{artista_buscado.length > 0 ? artista_buscado : ""}-->
+		<!--		</div>-->
+		<h1 class='text-center py-0 pr-2 text-black
+		 					 bg-white bg-opacity-50
+		 					 rounded-t-md border border-black
+							 xl:text-4xl lg:text-3xl md:text-2xl sm:text'
 		>
-			{artista_buscado.length > 0 ? artista_buscado : 'Músico'}
-		</div>
-		<div
-			class='flex flex-row p-1 w-full bg-white bg-opacity-20
-						 rounded-md border-white border-opacity-30 justify-between
-						 gap-1 border'
-		>
+			{artista_buscado.length > 0
+				? `Artista:  ${artista_buscado}`
+				: ""
+			}
+		</h1>
+		<div class='flex flex-row p-2 w-full
+								bg-black bg-opacity-0
+								rounded-b-md border border-black
+							  gap-2 justify-between'>
 			<input
 				bind:value={artista_buscado}
-				class='px-2 w-full text-white bg-transparent placeholder-purple-700'
+				class='px-2 w-full text-white text-sm md:text-base
+							 bg-black bg-opacity-70 placeholder-gray-400
+							 outline-none rounded-b-md'
+				id='artista'
 				on:keydown={(evento) => {
-					if (evento.keyCode !== 13) return;
-					search();
-				}}
+				if (evento.keyCode !== 13) return;
+				search();
+			}}
 				placeholder='Que músico quieres escuchar...?'
 				type='text'
 			/>
@@ -53,9 +68,10 @@
 				</svg>
 			</button>
 		</div>
-		<div class='flex justify-center pt-10 w-full'>
-			<img alt='logo' class='w-60 h-60' src={logo} />
-		</div>
+		<!--		<div class='flex justify-center mb-4 w-full'>-->
+		<!--			<img alt='logo' class='w-60 h-60' src={logo} />-->
+		<!--    </div>-->
+		<!--  </div>-->
 	</div>
 </section>
 
@@ -103,5 +119,10 @@
     button:active {
         box-shadow: 0 0 0.6em 0.25em var(--glow-color), 0 0 2.5em 2em var(--glow-spread-color),
         inset 0 0 0.5em 0.25em var(--glow-color);
+    }
+
+    input:-webkit-autofill,
+    input:-webkit-autofill:focus {
+        transition: background-color 600000s 0s, color 600000s 0s;
     }
 </style>
