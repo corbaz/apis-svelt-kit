@@ -1,0 +1,35 @@
+
+
+
+{
+ "resultCount":1,
+ "results": [
+{"wrapperType":"track", "kind":"feature-movie", "trackId":279990601,
+ "artistName":"Phil Alden Robinson", "trackName":"Field of Dreams",
+  "trackCensoredName":"Field of Dreams",
+   "trackViewUrl":"https://itunes.apple.com/us/movie/field-of-dreams/id279990601?uo=4",
+    "previewUrl":"http://a902.phobos.apple.com/us/r1000/064/Video/v4/e0/e2/e0e2f8f0-f8c7-f8e1-b8e0-f8f8f8f8f8f8/pr_source.mov",
+     "artworkUrl30":"http://is1.mzstatic.com/image/thumb/Video/v4/e0/e2/e0e2f8f0-f8c7-f8e1-b8e0-f8f8f8f8f8f8/source/30x30bb.jpg",
+      "artworkUrl60":"http://is1.mzstatic.com/image/thumb/Video/v4/e0/e2/e0e2f8f0-f8c7-f8e1-b8e0-f8f8f8f8f8f8/source/60x60bb.jpg",
+       "artworkUrl100":"http://is1.mzstatic.com/image/thumb/Video/v4/e0/e2/e0e2f8f0-f8c7-f8e1-b8e0-f8f8f8f8f8f8/source/100x100bb.jpg",
+        "collectionPrice":0.00,
+         "trackPrice":0.00,
+          "trackRentalPrice":0,
+           "collectionHdPrice":0,
+            "trackHdPrice":0,
+             "trackHdRentalPrice":0,
+              "releaseDate":"2014-01-01T08:00:00Z",
+               "collectionExplicitness":"notExplicit",
+                "trackExplicitness":"notExplicit",
+                 "trackTimeMillis":90000,
+                  "country":"USA",
+                   "currency":"USD",
+                    "primaryGenreName":"Drama",
+                     "contentAdvisoryRating":"PG-13",
+                      "longDescription":"Phil Alden Robinson (John Goodman) is a successful, wealthy, and
+
+"previewUrl":"https://video-ssl.itunes.apple.com/itunes-assets/Video118/v4/40/1a/8a/401a8a76-e7f1-5127-06bf-4ba243e9171a/mzvf_7952018799658673202.640x352.h264lc.U.p.m4v", "artworkUrl30":"https://is2-ssl.mzstatic.com/image/thumb/Video124/v4/aa/b1/0b/aab10b58-ca8b-e72c-5b5d-4434e35db9bf/source/30x30bb.jpg", "artworkUrl60":"https://is2-ssl.mzstatic.com/image/thumb/Video124/v4/aa/b1/0b/aab10b58-ca8b-e72c-5b5d-4434e35db9bf/source/60x60bb.jpg", "artworkUrl100":"https://is2-ssl.mzstatic.com/image/thumb/Video124/v4/aa/b1/0b/aab10b58-ca8b-e72c-5b5d-4434e35db9bf/source/100x100bb.jpg", "collectionPrice":7.99, "trackPrice":7.99, "trackRentalPrice":3.99, "collectionHdPrice":7.99, "trackHdPrice":7.99, "trackHdRentalPrice":3.99, "releaseDate":"1989-04-21T07:00:00Z", "collectionExplicitness":"notExplicit", "trackExplicitness":"notExplicit", "trackTimeMillis":6329663, "country":"USA", "currency":"USD", "primaryGenreName":"Drama", "contentAdvisoryRating":"PG", "shortDescription":"\"If you build it, he will come.\" With these words, Iowa farmer Ray Kinsella (Kevin Costner) is", 
+"longDescription":"\"If you build it, he will come.\" With these words, Iowa farmer Ray Kinsella (Kevin Costner) is inspired by a voice he can't ignore to pursue a dream he can hardly believe. Supported by his wife Annie (Amy Madigan), Ray begins the quest by turning his ordinary cornfield into a place where dreams can come true.  Along the way he meets reclusive activist Terence Mann (James Earl Jones), the mysterious “Doc” Graham (Burt Lancaster) and even the legendary “Shoeless Joe” Jackson (Ray Liotta).   A heartwarming experience that has moved critics and audiences like no other film of this generation, Field of Dreams is a glowing tribute to all who dare to dream."}]
+}
+
+

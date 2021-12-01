@@ -12,7 +12,7 @@
 	};
 </script>
 
-<div class='w-screen h-20 object-cover fixed
+<div class='w-screen h-12 object-cover fixed
 		 left-0 top-0 right-0 bottom-0 z-50
 		 bg-opacity-50 bg-black
 		 grid grid-cols-3 gap-3'>

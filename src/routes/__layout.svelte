@@ -1,6 +1,7 @@
 <script>
 	import '../tailwind.css';
 	import Menu from '../components/Menu.svelte';
+	import video from '/static/music.mp4';
 </script>
 
 <video autoplay class='w-screen h-screen object-cover fixed
@@ -10,7 +11,7 @@
 			 loop muted
 			 poster='https://assets.codepen.io/6093409/river.jpg'
 >
-	<source src='/static/music.mp4' type='video/mp4' />
+	<source src='{video}' type='video/mp4' />
 </video>
 <Menu />
 <div class='w-screen h-screen object-cover fixed

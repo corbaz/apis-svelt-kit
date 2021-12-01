@@ -16,15 +16,7 @@
 					 			flex flex-col justify-center
 					 			mx-5 md:mx-40 lg:mx-56 xl:mx-76'>
 	<div>
-		<!--		<div-->
-		<!--			class='text-center font-semibold mb-0 py-0-->
-		<!--						 text-3xl md:text-5xl rounded-md-->
-		<!--						 bg-black bg-opacity-50 text-white'-->
-		<!--			id='idMusico'-->
-		<!--		>-->
-		<!--			{artista_buscado.length > 0 ? artista_buscado : ""}-->
-		<!--		</div>-->
-		<h1 class='text-center py-0 pr-2 text-black
+		<h1 class='text-center pb-2 pr-2 text-black
 		 					 bg-white bg-opacity-50
 		 					 rounded-t-md border border-black
 							 xl:text-4xl lg:text-3xl md:text-2xl sm:text'
